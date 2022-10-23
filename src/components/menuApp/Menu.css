@@ -1,0 +1,31 @@
+.menu-item>h4{
+    color: #ffffff;
+    
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 2rem auto;
+    align-items: center;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: 'Arial', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

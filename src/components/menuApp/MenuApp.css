@@ -1,0 +1,82 @@
+.menu{
+    background-color: #242222;
+    height: 100vh;
+    
+}
+
+.menu-section {
+    background-color: #242222;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+.menu-item-inactive{
+    display: none;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+.menu-item-active{
+    font-style: italic;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.menu-item-active-paragraph{
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 2rem auto;
+    align-items: center;
+    border-radius: 0.25rem;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+.menu-title{
+    min-height: 10vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #ffd368;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.menu-category-items>h3{
+    font-size: 35px;
+    color: #ffd368;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
